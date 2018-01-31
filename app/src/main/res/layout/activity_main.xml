@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.adamnain.scoringbola.MainActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/size0dp"
+		android:layout_weight="1"
+		android:background="@color/colorBlue"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:text="@string/persib_bandung"
+			android:textColor="@color/colorWhite"
+			android:textSize="@dimen/size40sp" />
+
+		<ImageButton
+			android:id="@+id/btn_persib"
+			android:layout_width="@dimen/size50dp"
+			android:layout_height="@dimen/size50dp"
+			android:layout_marginLeft="@dimen/size16dp"
+			android:background="@drawable/persib" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/size0dp"
+		android:layout_weight="1"
+		android:background="@color/colorOrange"
+		android:gravity="center">
+
+		<ImageButton
+			android:id="@+id/btn_persija"
+			android:layout_width="@dimen/size50dp"
+			android:layout_height="@dimen/size50dp"
+			android:layout_marginRight="@dimen/size16dp"
+			android:background="@drawable/persija" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/persija_jakarta"
+			android:textColor="@color/colorWhite"
+			android:textSize="@dimen/size40sp" />
+
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/tv_scorePersib"
+			android:layout_width="@dimen/size0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:text="0"
+			android:textColor="@color/colorBlue"
+			android:textSize="@dimen/size100sp" />
+
+		<TextView
+			android:id="@+id/tv_scorePersija"
+			android:layout_width="@dimen/size0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:text="0"
+			android:textColor="@color/colorOrange"
+			android:textSize="@dimen/size100sp" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/scorePersibDec"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@color/colorBlueDark"
+			android:text="@string/dec" />
+
+		<Button
+			android:id="@+id/scorePersib"
+			android:layout_width="@dimen/size0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@color/colorBlue"
+			android:text="@string/inc" />
+
+		<Button
+			android:id="@+id/scoreReset"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@color/colorGray"
+			android:text="@string/reset" />
+
+		<Button
+			android:id="@+id/btn_news"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@color/colorDarkGray"
+			android:text="@string/news" />
+
+		<Button
+			android:id="@+id/scorePersijaDec"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@color/colorOrangeDark"
+			android:text="@string/dec" />
+
+
+		<Button
+			android:id="@+id/scorePersija"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@color/colorOrange"
+			android:text="@string/inc" />
+	</LinearLayout>
+
+
+
+</LinearLayout>
