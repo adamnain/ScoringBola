@@ -5,4 +5,5 @@
 	<dimen name="size16dp">16dp</dimen>
 	<dimen name="size40sp">40sp</dimen>
 	<dimen name="size100sp">100sp</dimen>
+	<dimen name="size150dp">150dp</dimen>
 </resources>
