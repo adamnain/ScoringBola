@@ -18,7 +18,8 @@
 		</activity>
 		<activity android:name=".PersibActivity" />
 		<activity android:name=".PersijaActivity" />
-		<activity android:name=".MainActivity"/>
+		<activity android:name=".MainActivity" />
+		<activity android:name=".ListPertandingan"></activity>
 	</application>
 
 </manifest>
