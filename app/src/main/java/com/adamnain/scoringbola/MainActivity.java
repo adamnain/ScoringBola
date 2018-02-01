@@ -14,9 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
 	ImageButton btnPersib, btnPersija;
 	Button btnScorePersija, btnScorePersib, btnScoreReset, btnScorePersijaDec, btnScorePersibDec, btnNews;
-	TextView scorePersija, scorePersib;
+	TextView scorePersija, scorePersib, tvHome;
 	int currentScorePersib = 0;
 	int currentScorePersija = 0;
+
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
 		btnScorePersibDec = findViewById(R.id.scorePersibDec);
 		btnScorePersijaDec = findViewById(R.id.scorePersijaDec);
 		btnNews = findViewById(R.id.btn_news);
+
+		tvHome = findViewById(R.id.tv_home);
+		tvHome.setText(getIntent().getStringExtra("timHome"));
 
 		btnPersib.setOnClickListener(new View.OnClickListener() {
 			@Override
